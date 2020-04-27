@@ -1,8 +1,24 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "hello"
+      "username": "hamoody347",
+      "password": "5nfooshti"
+    }, 
+    {
+      "id": 2,
+      "username": "commanderspooj",
+      "password": "battleBunny"
+    },
+    {
+      "id": 3,
+      "username": "ProjectMX",
+      "password": "Hashim98"
+    },
+    {
+      "id": 4,
+      "username": "musta564",
+      "password": "9f9f"
     }
   ],
   "profile": {
