@@ -1,27 +1,100 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "hamoody347",
-      "password": "5nfooshti"
-    }, 
-    {
-      "id": 2,
-      "username": "commanderspooj",
-      "password": "battleBunny"
-    },
-    {
-      "id": 3,
-      "username": "ProjectMX",
-      "password": "Hashim98"
-    },
-    {
-      "id": 4,
-      "username": "musta564",
-      "password": "9f9f"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "users": [
+        {
+            "userId": 1,
+            "username": "Hamoody347",
+            "userTag": "@hamoody347",
+            "email": "hamoody347@gmail.com",
+            "avatar": "assets/ahmedAvatar.jpg",
+            "password": "123456789",
+            "confirmPassword": "123456789"
+        },
+        {
+            "userId": 2,
+            "username": "Uncle Drew",
+            "userTag": "@Mustafa_Sayed",
+            "email": "mustacombo@gmail.com",
+            "avatar": "assets/mustafaAvatar.jpg",
+            "password": "123456789",
+            "confirmPassword": "123456789"
+        }
+    ],
+    "user-profile": [
+        {
+            "userId": 1,
+            "username": "Hamoody347",
+            "userTag": "@hamoody347",
+            "email": "hamoody347@gmail.com",
+            "avatar": "assets/ahmedAvatar.jpg",
+            "bio": "Ball is Life 🏀",
+            "posts": [
+                {
+                    "postId": 1,
+                    "postContent": "this is my first post",
+                    "postedBy": "@Mustafa_Sayed",
+                    "postedByUsername": "Uncle Drew",
+                    "postedByAvatar": "assets/mustafaAvatar.jpg",
+                    "postTime": "12-12-12"
+                },
+                {
+                    "postId": 2,
+                    "postContent": "this is my second post",
+                    "postedBy": "@Mustafa_Sayed",
+                    "postedByUsername": "Uncle Drew",
+                    "postedByAvatar": "assets/mustafaAvatar.jpg",
+                    "postTime": "12-12-12"
+                },
+                {
+                    "postId": 3,
+                    "postContent": "this is my third post",
+                    "postedBy": "@Mustafa_Sayed",
+                    "postedByUsername": "Uncle Drew",
+                    "postedByAvatar": "assets/mustafaAvatar.jpg",
+                    "postTime": "12-12-12"
+                },
+                {
+                    "postId": 4,
+                    "postContent": "this is my first reply",
+                    "postedBy": "@hamoody347",
+                    "postedByUsername": "Uncle Drew",
+                    "postedByAvatar": "assets/ahmedAvatar.jpg",
+                    "postTime": "12-12-12"
+                },
+            ]
+        },
+        {
+            "userId": 2,
+            "username": "Uncle Drew",
+            "userTag": "@Mustafa_Sayed",
+            "email": "mustacombo@gmail.com",
+            "avatar": "assets/mustafaAvatar.jpg",
+            "bio": "This is my bio!",
+            "posts": [
+                {
+                    "postId": 1,
+                    "postContent": "this is my first post",
+                    "postedBy": "@hamoody347",
+                    "postedByUsername": "Hamoody347",
+                    "postedByAvatar": "assets/ahmedAvatar.jpg",
+                    "postTime": "12-12-12"
+                },
+                {
+                    "postId": 2,
+                    "postContent": "this is my second post",
+                    "postedBy": "@hamoody347",
+                    "postedByUsername": "Hamoody347",
+                    "postedByAvatar": "assets/ahmedAvatar.jpg",
+                    "postTime": "12-12-12"
+                },
+                {
+                    "postId": 3,
+                    "postContent": "this is my third post",
+                    "postedBy": "@hamoody347",
+                    "postedByUsername": "Hamoody347",
+                    "postedByAvatar": "assets/ahmedAvatar.jpg",
+                    "postTime": "12-12-12"
+                },
+            ]
+        },
+    ]
 }
